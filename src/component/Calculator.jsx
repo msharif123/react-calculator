@@ -1,4 +1,4 @@
-// Calculator.jsx
+
 import React, { useState } from 'react';
 import './Calculator.css';
 
@@ -26,7 +26,10 @@ const Calculator = () => {
     '7','8','9','/',   '4','5','6','*',    '1','2','3','-',  '0','.','=','+','Del'
   ];
 
-  return (
+  return (<>  
+
+
+  <h1> Simple calculator application</h1>
     <div className="calculator">
       <input type="text" value={input} readOnly />
       <div className="button-grid">
@@ -44,7 +47,7 @@ const Calculator = () => {
         ))}
       </div>
     </div>
-  );
+ </> );
 };
 
 export default Calculator;
