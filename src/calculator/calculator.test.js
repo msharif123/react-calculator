@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { add, subtract, multiply, divide } from "../component/Calculator";
+import { add, subtract, multiply, divide } from "./Calculator";
 
 describe('Calculator', () => {
   //addera
@@ -33,6 +33,9 @@ describe('Calculator', () => {
     expect(divide(5, 2)).toBe(2.5);
   });
 
+
+
+  // this part I added to to test allso devision by zero to throw error 
   test('throw error when devision by Zero', () => {
     expect(() => divide(5, 0)).toThrowError("Division by zero is not allowed");
   });

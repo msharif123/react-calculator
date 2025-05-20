@@ -1,14 +1,20 @@
 
-import './App.css'
-import Calculator from './component/Calculator'
+
+import Kalkulator from './component/kalkulator'
+
+
+
+
+
 
 function App() {
 
 
   return (
     <> 
-    
-     <Calculator/>
+    <h1 className=' kalkulator'>Kalkulator app</h1>
+
+    <Kalkulator/>
     </>
   )
 }
