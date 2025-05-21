@@ -1,6 +1,6 @@
 
 
-import Kalkulator from './component/kalkulator'
+import Kalkulator from "./components/Kalkulator"
 
 
 
