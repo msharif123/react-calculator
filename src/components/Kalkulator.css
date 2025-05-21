@@ -5,7 +5,13 @@
   min-height: 100vh;
   background-color: grey;
 }
+.calc{
 
+  background-color: black;
+  text-align: center;
+  color: white;
+  
+}
 .calculator {
   background-color: #ffffff;
   border-radius: 10px;
